@@ -193,7 +193,7 @@ pub(crate) struct MajorChangeConfig {
     // This has a default primarily for backwards compatibility.
     #[serde(default = "MajorChangeConfig::enabling_label_default")]
     pub(crate) enabling_label: String,
-    /// This is the label applied when issuing a `@rustbot second` command, it
+    /// This is the label applied when issuing a `@rustbot-yn second` command, it
     /// indicates that the proposal has moved into the 10 day waiting period.
     pub(crate) second_label: String,
     /// This is the label applied after the waiting period has successfully

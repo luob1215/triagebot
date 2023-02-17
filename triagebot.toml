@@ -5,8 +5,30 @@ allow-unauthenticated = ["bug", "invalid", "question", "enhancement"]
 
 [note]
 
-[ping.wg-meta]
+[ping.test]
 message = """\
 This is just testing some functionality, please ignore this ping.
 """
-label = "help wanted"
+label = "invalid"
+
+[mentions."README.md"]
+message = "Some changes occurred in README"
+cc = [
+    "@luob1215"]
+
+[autolabel."documentation"]
+trigger_files = [
+    "README.md"
+]
+
+[assign]
+warn_non_default_branch = true
+contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
+
+[assign.adhoc_groups]
+demo-team = [
+    "@luob1215",
+]
+
+[assign.owners]
+"/README.md" =                              ["@luob1215"]

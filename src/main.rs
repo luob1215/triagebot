@@ -274,7 +274,7 @@ async fn run_server(addr: SocketAddr) -> anyhow::Result<()> {
         .build()
         .expect("Failed to build octograb.");
     let ctx = Arc::new(Context {
-        username: String::from("rustbot"),
+        username: String::from("rustbot-yn"),
         db: pool,
         github: gh,
         octocrab: oc,

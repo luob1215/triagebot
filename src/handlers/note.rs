@@ -3,10 +3,10 @@
 //! Users can make a new summary entry by commenting the following:
 //!
 //! ```md
-//! @rustbot note summary-title
+//! @rustbot-yn note summary-title
 //! ```
 //!
-//! If this is the first summary entry, rustbot will amend the original post (the top-level comment) to add a "Notes" section. The section should **not** be edited by hand.
+//! If this is the first summary entry, rustbot-yn will amend the original post (the top-level comment) to add a "Notes" section. The section should **not** be edited by hand.
 //!
 //! ```md
 //! <!-- TRIAGEBOT_SUMMARY_START -->
@@ -19,7 +19,7 @@
 //! <!-- TRIAGEBOT_SUMMARY_END -->
 //! ```
 //!
-//! If this is *not* the first summary entry, rustbot will simply append the new entry to the existing notes section:
+//! If this is *not* the first summary entry, rustbot-yn will simply append the new entry to the existing notes section:
 //!
 //! ```md
 //! <!-- TRIAGEBOT_SUMMARY_START -->

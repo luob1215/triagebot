@@ -10,7 +10,7 @@ use std::fmt::Write;
 use std::str::FromStr;
 
 /// This is the repository where the commits will be created.
-const WORK_REPO: &str = "rustbot/rust";
+const WORK_REPO: &str = "rustbot-yn/rust";
 /// This is the repository where the PR will be created.
 const DEST_REPO: &str = "rust-lang/rust";
 /// This is the branch in `WORK_REPO` to create the commits.

@@ -2,9 +2,9 @@
 //!
 //! This supports several ways for setting issue/PR assignment:
 //!
-//! * `@rustbot assign @gh-user`: Assigns to the given user.
-//! * `@rustbot claim`: Assigns to the comment author.
-//! * `@rustbot release-assignment`: Removes the commenter's assignment.
+//! * `@rustbot-yn assign @gh-user`: Assigns to the given user.
+//! * `@rustbot-yn claim`: Assigns to the comment author.
+//! * `@rustbot-yn release-assignment`: Removes the commenter's assignment.
 //! * `r? @user`: Assigns to the given user (PRs only).
 //!
 //! This is capable of assigning to any user, even if they do not have write
@@ -50,7 +50,7 @@ const WELCOME_WITHOUT_REVIEWER: &str = "@Mark-Simulacrum (NB. this repo may be m
 
 const RETURNING_USER_WELCOME_MESSAGE: &str = "r? @{assignee}
 
-(rustbot has picked a reviewer for you, use r? to override)";
+(rustbot-yn has picked a reviewer for you, use r? to override)";
 
 const RETURNING_USER_WELCOME_MESSAGE_NO_REVIEWER: &str =
     "@{author}: no appropriate reviewer found, use r? to override";

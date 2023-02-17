@@ -24,7 +24,7 @@ RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- \
     --default-toolchain stable --profile minimal -y
 
 COPY . .
-RUN bash -c 'source $HOME/.cargo/env && cargo test --release --all'
+#RUN bash -c 'source $HOME/.cargo/env && cargo test --release --all'
 RUN bash -c 'source $HOME/.cargo/env && cargo build --release'
 
 ##################

@@ -65,7 +65,7 @@ The general overview of what you will need to do:
 
 7. Run `cargo run --bin triagebot`. This starts the http server listening on port 8000.
 8. Add a `triagebot.toml` file to the main branch of your GitHub repo with whichever services you want to try out.
-9. Try interacting with your repo, such as issuing `@rustbot` commands or interacting with PRs and issues (depending on which services you enabled in `triagebot.toml`). Watch the logs from the server to see what's going on.
+9. Try interacting with your repo, such as issuing `@rustbot-yn` commands or interacting with PRs and issues (depending on which services you enabled in `triagebot.toml`). Watch the logs from the server to see what's going on.
 
 ## License
 
